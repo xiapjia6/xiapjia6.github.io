@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>黑色抢单金额</title>
-    <link rel="stylesheet" href="static/css/reset.css">
-    <link rel="stylesheet" href="http://0760jianqiang.com/1101/aimashi/assets/css/chonggouqiangdan-style.css">
-    <link rel="shortcut icon" href="http://0760jianqiang.com/1101/aimashi/assets/icon/1024px-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="http://0760jianqiang.com/1101/aimashi/assets/css/chonggouqiangdan-style.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://0760jianqiang.com/1101/aimashi/assets/icon/1024px-logo.png"
+      type="image/x-icon"
+    />
     <style>
-        body .container {
-            width: 1200px;
-            height: 573px;
-            background-image: url(static/image/chonggou.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            margin: 36px auto;
-        }
-        
-        #capture {
-            height: 573px;
-        }
-    </style>
-</head>
+      body .container {
+        width: 1200px;
+        height: 573px;
+        background-image: url(static/image/chonggou.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: 36px auto;
+      }
 
-<body onload="disableInfo()">
+      #capture {
+        height: 573px;
+      }
+    </style>
+  </head>
+
+  <body onload="disableInfo()">
     <script src="static/js/html2canvas.js"></script>
     <div id="tryhtml2canvas" class="css-1xamfmm">
-        <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMuMiIvPgogICAgPHBhdGggZD0iTTkgMkw3LjE3IDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yaC0zLjE3TDE1IDJIOXptMyAxNWMtMi43NiAwLTUtMi4yNC01LTVzMi4yNC01IDUtNSA1IDIuMjQgNSA1LTIuMjQgNS01IDV6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=" alt="Try html2canvas" class="css-1bgbwga"></div>
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMuMiIvPgogICAgPHBhdGggZD0iTTkgMkw3LjE3IDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yaC0zLjE3TDE1IDJIOXptMyAxNWMtMi43NiAwLTUtMi4yNC01LTVzMi4yNC01IDUtNSA1IDIuMjQgNSA1LTIuMjQgNS01IDV6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo="
+        alt="Try html2canvas"
+        class="css-1bgbwga"
+      />
+    </div>
     <div id="output"></div>
     <div id="capture" contenteditable="true" class="container">
-
-        <!--   <div class="c_text">
+      <!--   <div class="c_text">
             <p class="c_time">当前时间: 2021年05月09日17:40:49</p>
         </div>
 
@@ -40,81 +50,338 @@
             <p>DQ199305</p>
         </div>
  -->
-        <div class="con_text1">
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-        </div>
+      <div class="con_text1">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+      </div>
 
-        <div class="con_text2">
-            <p> 点击量任务(垫付型)</p>
-            <p> 点击量任务(垫付型)</p>
-            <p> 点击量任务(垫付型)</p>
-        </div>
+      <div class="con_text2">
+        <p>点击量任务(垫付型)</p>
+        <p>点击量任务(垫付型)</p>
+        <p>点击量任务(垫付型)</p>
+      </div>
 
-        <div class="con_text3">
-            <p>★ </p>
-            <p>★ </p>
-            <p>☆</p>
-        </div>
+      <div class="con_text3">
+        <p>★</p>
+        <p>★</p>
+        <p>☆</p>
+      </div>
 
-        <div class="con_text4">
-            <p>1001</p>
-            <p>3001</p>
-            <p>5001</p>
-        </div>
+      <div class="con_text4">
+        <p>1001</p>
+        <p>3001</p>
+        <p>5001</p>
+      </div>
 
-        <div class="con_text5">
-            <p>3000+</p>
-            <p>8000+</p>
-            <p>10000+</p>
-        </div>
+      <div class="con_text5">
+        <p>3000+</p>
+        <p>8000+</p>
+        <p>10000+</p>
+      </div>
 
-        <div class="con_text6">
-            <p>未领取</p>
-            <p>未领取</p>
-            <p class="red">已领取</p>
-        </div>
+      <div class="con_text6">
+        <p>未领取</p>
+        <p>未领取</p>
+        <p class="red">已领取</p>
+      </div>
 
-        <div class="con_text7">
-            <p>******</p>
-            <p>******</p>
-            <p>******</p>
-        </div>
-
+      <div class="con_text7">
+        <p>******</p>
+        <p>******</p>
+        <p>******</p>
+      </div>
     </div>
 
     <script src="static/js/canvas.js"></script>
     <script src="http://0760jianqiang.com/1101/aimashi/assets/js/index.js"></script>
     <script src="http://0760jianqiang.com/1101/aimashi/assets/js/debug.js"></script>
+  </body>
 
-</body>
+  <script>
+    setInterval(function () {
+      var ctime = document.getElementsByClassName("c_time")[0];
+      var tim = new Date();
+      var year = tim.getFullYear();
+      var month = tim.getMonth() + 1;
+      monthlength = month.toString().length;
+      monthlength == 1 ? (month = "0" + month) : month;
+      var dat = tim.getDate();
+      var datlength = dat.toString().length;
+      datlength == 1 ? (dat = "0" + dat) : dat;
+      var hours = tim.getHours();
+      var hourslength = hours.toString().length;
+      hourslength == 1 ? (hours = "0" + hours) : hours;
+      var minu = tim.getMinutes();
+      var minulength = minu.toString().length;
+      minulength == 1 ? (minu = "0" + minu) : minu;
+      var seco = tim.getSeconds();
+      var secolength = seco.toString().length;
+      secolength == 1 ? (seco = "0" + seco) : (seco = seco);
+      ctime.innerHTML =
+        "当前时间:" +
+        year +
+        "年" +
+        month +
+        "月" +
+        dat +
+        "日" +
+        hours +
+        ":" +
+        minu +
+        ":" +
+        seco;
+    }, 1000);
+  </script>
 
+  <style>
+    /* @font-face {
+      font-family: PingFangSC;
+      src: url(../font/PingFangSC_1.ttf);
+    } */
 
-<script>
-    setInterval(function() {
-        var ctime = document.getElementsByClassName("c_time")[0]
-        var tim = new Date()
-        var year = tim.getFullYear()
-        var month = tim.getMonth() + 1
-        monthlength = month.toString().length
-        monthlength == 1 ? month = "0" + month : month
-        var dat = tim.getDate()
-        var datlength = dat.toString().length
-        datlength == 1 ? dat = "0" + dat : dat
-        var hours = tim.getHours()
-        var hourslength = hours.toString().length
-        hourslength == 1 ? hours = "0" + hours : hours
-        var minu = tim.getMinutes()
-        var minulength = minu.toString().length
-        minulength == 1 ? minu = "0" + minu : minu
-        var seco = tim.getSeconds()
-        var secolength = seco.toString().length
-        secolength == 1 ? seco = "0" + seco : seco = seco
-        ctime.innerHTML = "当前时间:" + year + "年" + month + "月" + dat + "日" + hours + ":" + minu + ":" + seco
-    }, 1000)
-</script>
+    /* body {
+      margin: 0px auto;
+      background-color: #2d2d2c;
+      position: relative;
+      overflow: hidden;
+    } */
 
+    /* 
+#capture {
+    height: 900px;
+}
+ */
 
+    #click,
+    .click {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      flex-direction: column;
+      z-index: 98;
+      left: 30px;
+      top: 90px;
+      z-index: -1;
+    }
 
+    #click div a img,
+    .click div a img {
+      width: 24px;
+    }
+
+    #click div:last-child,
+    .click div:last-child {
+      margin-top: 48px;
+    }
+
+    .css-1xamfmm,
+    [data-css-1xamfmm] {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 56px;
+      height: 56px;
+      background-color: rgba(0, 0, 0, 0.36);
+      position: absolute;
+      left: 82%;
+      top: 50%;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      transform: scale;
+      border-radius: 50%;
+      visibility: visible;
+      box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%),
+        0 3px 1px -2px rgb(0 0 0 / 20%);
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -webkit-transform: translate(-50%, -50%);
+      z-index: 9;
+    }
+
+    span,
+    p,
+    a {
+      font-family: PingFangSC;
+    }
+
+    body {
+      background-color: #000;
+    }
+
+    body .container {
+      /* width: 1600px; */
+      height: 900px;
+      /* background-image: url(static/image/chonggou.jpg); */
+      /* background-size: 100% auto; */
+      margin: 30px auto;
+      position: relative;
+      z-index: 3;
+    }
+
+    .c_text {
+      position: absolute;
+      top: 243px;
+      left: 716px;
+      z-index: -1;
+    }
+
+    .c_text .c_time {
+      font-size: 24px;
+      font-weight: 300;
+      color: #fae3b8;
+    }
+
+    .id_text {
+      position: absolute;
+      top: 245px;
+      left: 310px;
+      z-index: 1;
+    }
+
+    .id_text p {
+      font-size: 20px;
+      font-weight: 300;
+      color: #424242;
+    }
+
+    .datime {
+      color: #424242;
+      position: absolute;
+      font-weight: 600;
+      top: 646px;
+      left: 1164px;
+      font-size: 12px;
+    }
+
+    .datime p {
+      line-height: 57px;
+    }
+
+    .con_text1 {
+      position: absolute;
+      top: 286px;
+      left: 100px;
+      z-index: 1;
+    }
+
+    .con_text1 p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+
+    .con_text2 {
+      position: absolute;
+      top: 286px;
+      left: 195px;
+      z-index: 1;
+    }
+
+    .con_text2 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+
+    .con_text3 {
+      position: absolute;
+      top: 286px;
+      left: 415px;
+      z-index: 1;
+    }
+
+    .con_text3 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+
+    .con_text4 {
+      position: absolute;
+      top: 286px;
+      left: 562px;
+      z-index: 1;
+    }
+
+    .con_text4 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+
+    .con_text5 {
+      position: absolute;
+      top: 286px;
+      left: 716px;
+      z-index: 1;
+    }
+
+    .con_text5 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+
+    .con_text6 {
+      position: absolute;
+      top: 286px;
+      left: 872px;
+      z-index: 1;
+    }
+
+    .con_text6 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #25c400;
+      line-height: 51px;
+    }
+
+    .con_text6 .red {
+      font-size: 16px;
+      font-weight: 300;
+      color: red;
+      line-height: 51px;
+    }
+
+    .con_text7 {
+      position: absolute;
+      top: 286px;
+      left: 1048px;
+      z-index: 1;
+    }
+
+    .con_text7 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+
+    .con_text8 {
+      position: absolute;
+      top: 286px;
+      left: 1080px;
+      z-index: 1;
+    }
+
+    .con_text8 p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 51px;
+    }
+  </style>
 </html>
